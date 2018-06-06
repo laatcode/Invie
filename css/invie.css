@@ -52,3 +52,8 @@ body {
 .logotipo {
   display: inline-block;
 }
+
+.contenedor {
+  width: 800px;
+  margin: auto;
+}
