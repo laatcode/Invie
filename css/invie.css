@@ -26,4 +26,18 @@ body {
 
 .portada {
   background-image: url('../images/background.png');
+  color: white;
+}
+
+.menu {
+  font-size: 24px;
+  display: inline-block;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.logotipo {
+  display: inline-block;
 }
