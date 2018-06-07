@@ -164,3 +164,26 @@ body {
 .sexo {
   margin-top: 10px;
 }
+
+table {
+  width: 100%;
+}
+
+th {
+  background: #273B47;
+  color: white;
+}
+
+th {
+  padding: 10px;
+}
+
+td {
+  padding: 20px;
+  text-align: center;
+}
+
+table, td, th{
+  border: 1px solid #273B47;
+  border-collapse: collapse;
+}
