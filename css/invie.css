@@ -187,3 +187,8 @@ table, td, th{
   border: 1px solid #273B47;
   border-collapse: collapse;
 }
+
+.menu li:before {
+  content: '∘';
+  line-height: 20px;
+}
