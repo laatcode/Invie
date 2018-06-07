@@ -3,6 +3,34 @@ body {
   margin: 0;
 }
 
+table {
+  width: 100%;
+}
+
+th {
+  background: #273B47;
+  color: white;
+}
+
+th {
+  padding: 10px;
+}
+
+td {
+  padding: 20px;
+  text-align: center;
+}
+
+table, td, th{
+  border: 1px solid #273B47;
+  border-collapse: collapse;
+}
+
+.contenedor {
+  width: 800px;
+  margin: auto;
+}
+
 .button {
   border-radius: 12px;
   border: none;
@@ -39,6 +67,7 @@ body {
 
 .guitarras {
   color: #1F313C;
+  margin-bottom: 60px;
 }
 
 .guitarras h2 {
@@ -76,13 +105,8 @@ body {
   margin-left: 0;
 }
 
-.contenedor {
-  width: 800px;
-  margin: auto;
-}
-
 .guitarra {
-  margin: 10px;
+  margin: 10px 10px 40px 10px;
   padding: 10px;
   border: 1px solid #1F313C;
   border-radius: 8px;
@@ -90,6 +114,10 @@ body {
 
 .guitarra ol {
   padding: 0;
+}
+
+.guitarra.b {
+  height: 190px;
 }
 
 .derecha {
@@ -101,7 +129,6 @@ body {
 .izquierda {
   float: left;
   position: relative;
-  top: 80px;
 }
 
 .contenedor-guitarra-a {
@@ -110,6 +137,8 @@ body {
 
 .contenedor-guitarra-b {
   margin-left: 370px;
+  position: relative;
+  bottom: 90px;
 }
 
 .header {
@@ -176,29 +205,6 @@ body {
 
 .sexo {
   margin-top: 10px;
-}
-
-table {
-  width: 100%;
-}
-
-th {
-  background: #273B47;
-  color: white;
-}
-
-th {
-  padding: 10px;
-}
-
-td {
-  padding: 20px;
-  text-align: center;
-}
-
-table, td, th{
-  border: 1px solid #273B47;
-  border-collapse: collapse;
 }
 
 .menu li:before {
