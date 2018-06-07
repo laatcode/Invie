@@ -4,11 +4,16 @@ body {
 }
 
 .button {
-  border-radius: 8px;
+  border-radius: 12px;
   border: none;
-  padding: 7px;
+  padding: 7px 12px;
   background: #FD324E;
   color: white;
+  font-size: 18px;
+  background: linear-gradient(to left, #FE344E, #FF7250);
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .titulo {
@@ -16,6 +21,10 @@ body {
   font-size: 70px;
   margin-bottom: 0;
   margin-top: 70px;
+}
+
+.titulo span {
+  text-decoration: underline;
 }
 
 .title-a {
@@ -39,12 +48,10 @@ body {
 
 .portada {
   background-image: url('../images/background.png');
+  background-size: cover;
   color: white;
   padding: 20px;
-}
-
-.portada button {
-  margin-bottom: 70px;
+  height: 500px;
 }
 
 .menu {
@@ -59,8 +66,14 @@ body {
   margin-left: 30px;
 }
 
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+
 .logotipo {
   display: inline-block;
+  margin-left: 0;
 }
 
 .contenedor {
