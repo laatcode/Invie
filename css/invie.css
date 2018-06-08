@@ -26,9 +26,23 @@ table, td, th{
   border-collapse: collapse;
 }
 
+input, textarea {
+  outline: 0;
+}
+
+input:focus, textarea:focus {
+  background: lightgray;
+}
+
 .contenedor {
   width: 800px;
   margin: auto;
+  position: relative;
+}
+
+.background {
+  background-image: url('../images/background.png');
+  background-size: cover;
 }
 
 .button {
@@ -76,8 +90,6 @@ table, td, th{
 }
 
 .portada {
-  background-image: url('../images/background.png');
-  background-size: cover;
   color: white;
   padding: 20px;
   height: 500px;
@@ -147,6 +159,7 @@ table, td, th{
 
 .footer {
   background: #273B47;
+  padding: 50px 10px;
 }
 
 .footer .contenedor {
@@ -179,7 +192,6 @@ table, td, th{
   display: flex;
   width: 400px;
   color: white;
-  padding: 50px 10px;
 }
 
 .formulario label, .sexo, .intereses {
@@ -199,6 +211,10 @@ table, td, th{
   align-items: flex-start;
 }
 
+.col2 .button {
+  margin-top: 10px;
+}
+
 .intereses label {
   font-size: 12px;
 }
@@ -210,4 +226,9 @@ table, td, th{
 .menu li:before {
   content: '∘';
   line-height: 20px;
+  color: white;
+}
+
+.tabla {
+  margin: 50px 0;
 }
