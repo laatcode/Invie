@@ -290,3 +290,26 @@ input:focus, textarea:focus {
   }
   /* Guitarras */
 }
+
+@media screen and (max-width: 650px) {
+  .header {
+    text-align: center;
+  }
+
+  .logotipo {
+    margin: 0;
+  }
+
+  .menu {
+    position: static;
+    display: block;
+  }
+
+  .menu ul {
+    padding: 0;
+  }
+
+  .menu li:first-child {
+    margin: 0;
+  }
+}
