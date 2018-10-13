@@ -291,6 +291,49 @@ input:focus, textarea:focus {
   /* Guitarras */
 }
 
+@media screen and (max-width: 767px) {
+  /* Footer */
+  .footer .contenedor {
+    display: block;
+  }
+
+  .contacto {
+    margin: 0 auto;
+  }
+
+  .formulario {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+  }
+
+  .intereses label {
+    display: block;
+    font-size: 16px;
+  }
+
+  .col1 {
+    margin: 0;
+  }
+
+  input[type="text"],
+  input[type="email"] {
+    font-size: 16px;
+    padding: 5px;
+  }
+
+  textarea {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  input[type="radio"],
+  input[type="checkbox"] {
+    zoom: 1.4;
+  }
+  /* Footer */
+}
+
 @media screen and (max-width: 650px) {
   .header {
     text-align: center;
