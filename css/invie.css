@@ -315,6 +315,7 @@ input:focus, textarea:focus {
 }
 
 @media screen and (max-width: 520px) {
+  /* Portada */
   .menu li {
     display: block;
     margin: 0;
@@ -341,4 +342,19 @@ input:focus, textarea:focus {
   .title-a {
     font-size: 16px;
   }
+  /* Portada */
+
+  /* Guitarras */
+  .guitarra img {
+    width: 200px;
+  }
+
+  .title-b {
+    font-size: 30px;
+  }
+
+  .guitarra ol {
+    margin-top: 5px;
+  }
+  /* Guitarras */
 }
