@@ -278,6 +278,20 @@ input:focus, textarea:focus {
   margin: 50px 0;
 }
 
+.burguer-button {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  background: #395667;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
 @media screen and (max-width: 800px) {
   /* header */
   .titulo {
