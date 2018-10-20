@@ -291,6 +291,7 @@ input:focus, textarea:focus {
   left: 20px;
   top: 20px;
   z-index: 3;
+  color: white;
 }
 
 .videos h2 {
@@ -435,8 +436,12 @@ input:focus, textarea:focus {
   }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 500px) {
   /* Portada */
+  header .contenedor, .header {
+    position: static;
+  }
+
   .portada .contenedor {
     position: static;
   }

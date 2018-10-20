@@ -5,6 +5,7 @@
     <title>Precios de tus mejores guitarras</title>
     <link href="https://fonts.googleapis.com/css?family=Allerta|Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="css/invie.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
   </head>
   <body>
     <header id="header" class="header background">
@@ -12,7 +13,8 @@
         <figure class="logotipo">
           <a href="index.html"><img src="images/invie.png" width="186" height="60" alt="Logo Invie"></a>
         </figure>
-        <nav class="menu">
+        <span id="burguer-button" class="burguer-button icon-menu"></span>
+        <nav id="menu" class="menu">
           <ul>
             <li>
               <a href="index.html">Home</a>
@@ -101,5 +103,32 @@
         </form>
       </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/blazy/1.8.2/blazy.js"></script>
+    <script>
+      let consulta = window.matchMedia('(max-width: 500px)');
+      consulta.addListener(mediaQuery);
+
+      let $burguerButton = document.getElementById('burguer-button');
+      let $menu = document.getElementById('menu');
+
+      function mediaQuery() {
+        if (consulta.matches) {
+          console.log('Se cumplió la condición');
+          $burguerButton.addEventListener('touchstart', toggleMenu);
+        }else {
+          console.log('No se cumplió la condición');
+          $burguerButton.removeEventListener('touchstart', toggleMenu);
+        }
+      }
+
+      function toggleMenu(){
+        $menu.classList.toggle('active');
+      }
+
+      mediaQuery();
+
+      // Lazy loading
+      let blazy = new Blazy();
+    </script>
   </body>
 </html>
