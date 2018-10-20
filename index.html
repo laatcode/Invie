@@ -48,7 +48,7 @@
         </div>
       </article>
       <article class="guitarra b">
-        <img class="izquierda" data-src="images/invie-classic.png" width="350" alt="Invie Classic">
+        <img class="izquierda b-lazy" data-src="images/invie-classic.png" width="350" alt="Invie Classic">
         <div class="contenedor-guitarra-b">
           <h3 class="title-b">Invie Classic</h3>
           <ol>
@@ -62,13 +62,13 @@
     <section class="videos contenedor">
       <h2>Videos</h2>
       <article>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/R1dW8M4EqYY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <iframe class="b-lazy" width="560" height="315" data-src="https://www.youtube.com/embed/R1dW8M4EqYY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
       </article>
     </section>
     <footer class="footer">
       <div class="contenedor">
         <div class="contacto">
-          <img data-src="images/invie-white.png" alt="logotipo blanco">
+          <img class="b-lazy" data-src="images/invie-white.png" alt="logotipo blanco">
           <a href="tel:+571234567"><strong>Teléfono</strong> <span>3001234567</span></a>
           <a href="mailto:contacto@invie.com"><strong>E-mail</strong> <span>contacto@invie.com</span></a>
         </div>
@@ -134,9 +134,7 @@
       mediaQuery();
 
       // Lazy loading
-      let blazy = new Blazy({
-        selector: 'img'
-      });
+      let blazy = new Blazy();
     </script>
   </body>
 </html>
