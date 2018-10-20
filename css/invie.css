@@ -510,4 +510,15 @@ input:focus, textarea:focus {
     margin-top: 5px;
   }
   /* Guitarras */
+
+  /* Tabla de precios */
+  .tabla {
+    margin: 50px 20px;
+    border: 1px solid #273B47;
+  }
+
+  .tabla .contenedor {
+    overflow: auto;
+  }
+  /* Tabla de precios */
 }
