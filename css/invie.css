@@ -439,6 +439,10 @@ input:focus, textarea:focus {
 
 @media screen and (max-width: 500px) {
   /* Portada */
+  .portada .button {
+    display: block;
+  }
+
   .precios .logotipo {
     padding: 50px 0;
   }
@@ -519,6 +523,12 @@ input:focus, textarea:focus {
     margin-top: 5px;
   }
   /* Guitarras */
+
+  /* Footer */
+  .col2 {
+    align-items: stretch;
+  }
+  /* Footer */
 
   /* Tabla de precios */
   .tabla {
